@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+
+<head>
+    <title>A Recursive Tree Rendering Test</title>
+</head>
+
+<body>
+
+<div t:id="tree"/>
+
+</body>
+
+</html>

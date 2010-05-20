@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ul xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+
+    <!-- The custom delegate to the component to render based on the context of the current node. -->
+    <t:nodedelegate to="currentNodeRenderer"/>
+
+    <t:block>
+        <!-- This block contains a set of components to delegate rendering to based on the current node. -->
+        <div t:id="blackNode">
+            <!-- Delegate to the child component to render.  This replaces the component's body. -->
+            <t:nodedelegate to="currentNodeRenderer"/>
+        </div>
+
+        <div t:id="redNode">
+            <t:nodeDelegate to="currentNodeRenderer"/>
+        </div>
+
+    </t:block>
+
+</ul>
